@@ -4,6 +4,7 @@ const Counter = () => {
   const [count, setCount] = useState<number>(0);
   return (
     <div style={{ textAlign: "center", padding: "20%" }}>
+      <h1>Deployed After Adding Github Actions!</h1>
       <h1>Counter : {count}</h1>
       <div>
         <button onClick={() => setCount(count - 1)}>DEC</button>
